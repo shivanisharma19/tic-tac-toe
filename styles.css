@@ -28,6 +28,9 @@ h1 {
     cursor: pointer;
     font-size: large;
     font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 
