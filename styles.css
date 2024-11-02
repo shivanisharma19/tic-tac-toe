@@ -1,0 +1,45 @@
+body {
+ background-color:darkolivegreen
+}
+
+h1 {
+ display: flex;
+ justify-content: center;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.square {
+    border: 1px solid;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.reset {
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;    
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
